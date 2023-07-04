@@ -1,225 +1,354 @@
 <link rel="icon" type="image/x-icon" href="Aryan Automation Logo.png">
 <title>Aryan Automation</title>
-<link rel="stylesheet" href="index.css">
-<header id="nav-menu" aria-label="navigation bar">
-  <div class="container">
-    <div class="nav-start">
-      <a class="logo" href="/">
-        <img src="https://github.com/Evavic44/responsive-navbar-with-dropdown/blob/main/assets/images/logo.png?raw=true" width="35" height="35" alt="Inc Logo" />
-      </a>
-      <nav class="menu">
-        <ul class="menu-bar">
-          <li>
-            <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false" aria-label="browse">
-              Browse
-              <i class="bx bx-chevron-down" aria-hidden="true"></i>
-            </button>
-            <div id="dropdown1" class="dropdown">
-              <ul role="menu">
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#best-of-the-day">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/botd.svg" class="icon" />
-                    <div>
-                      <span class="dropdown-link-title">Best of the day</span>
-                      <p>Shorts featured today by curators</p>
-                    </div>
-                  </a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#featured-streams">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/fs.svg" class="icon" />
-                    <div>
-                      <span class="dropdown-link-title">Featured Streams</span>
-                      <p>Leading creatives livestreams</p>
-                    </div>
-                  </a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#subscriptions">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/sp.svg" class="icon" />
-                    <div>
-                      <span class="dropdown-link-title">Subscriptions</span>
-                      <p>Gain exclusive access</p>
-                    </div>
-                  </a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#creative-feed">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/cf.svg" class="icon" />
-                    <div>
-                      <span class="dropdown-link-title">Creative Feed</span>
-                      <p>See trending creations</p>
-                    </div>
-                  </a>
-                </li>
-              </ul>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family:Arial}
 
-              <ul role="menu">
-                <li class="dropdown-title">
-                  <span class="dropdown-link-title">Browse by apps</span>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#adobe-xd">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/xd.svg" />
-                    Adobe XD
-                  </a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#after-effect">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/ae.svg" />
-                    After Effect
-                  </a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#sketch">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/sketch.svg" />
-                    Sketch
-                  </a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#indesign">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/indesign.svg" />
-                    Indesign
-                  </a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#figma">
-                    <img src="https://raw.githubusercontent.com/Evavic44/responsive-navbar-with-dropdown/main/assets/icons/figma.svg" />
-                    Figma
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false" aria-label="discover">
-              Discover
-              <i class="bx bx-chevron-down" aria-hidden="true"></i>
-            </button>
-            <div id="dropdown2" class="dropdown">
-              <ul role="menu">
-                <li>
-                  <span class="dropdown-link-title">Browse Categories</span>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#branding">Branding</a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#illustrations">Illustration</a>
-                </li>
-              </ul>
-              <ul role="menu">
-                <li>
-                  <span class="dropdown-link-title">Download App</span>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#mac-windows">MacOS & Windows</a>
-                </li>
-                <li role="menuitem">
-                  <a class="dropdown-link" href="#linux">Linux</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li><a class="nav-link" href="/">Jobs</a></li>
-          <li><a class="nav-link" href="/">Livestream</a></li>
-          <li><a class="nav-link" href="/">About</a></li>
-        </ul>
-      </nav>
-    </div>
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  box-sizing: border-box; 
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
 
-    <div class="nav-end">
-      <div class="right-container">
-        <form class="search" role="search">
-          <input type="search" name="search" placeholder="Search" />
-          <i class="bx bx-search" aria-hidden="true"></i>
-        </form>
-        <a href="#profile">
-          <img src="https://github.com/Evavic44/responsive-navbar-with-dropdown/blob/main/assets/images/user.jpg?raw=true" width="30" height="30" alt="user image" />
-        </a>
-        <button class="btn btn-primary">Create</button>
-      </div>
 
-      <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
-        <i class="bx bx-menu" aria-hidden="true"></i>
-      </button>
-    </div>
-  </div>
-</header>
-
-<!-- Page markup: Not important -->
-<main style="padding: 1.5rem; margin: 0 auto; max-width: 1300px">
-  <h1>Navigation Bar</h1>
-  <p>
-    Want to learn how to make this?
-    <a style="text-decoration: underline; color: var(--primary-color)" href="https://www.freecodecamp.org/news/how-to-build-a-responsive-navigation-bar-with-dropdown-menu-using-javascript/" target="_blank">Read the tutorial</a>
-  </p>
-</main>
-<script>
-  const dropdownBtn = document.querySelectorAll(".dropdown-btn");
-const dropdown = document.querySelectorAll(".dropdown");
-const hamburgerBtn = document.getElementById("hamburger");
-const navMenu = document.querySelector(".menu");
-const links = document.querySelectorAll(".dropdown a");
-
-function setAriaExpandedFalse() {
-  dropdownBtn.forEach((btn) => btn.setAttribute("aria-expanded", "false"));
 }
 
-function closeDropdownMenu() {
-  dropdown.forEach((drop) => {
-    drop.classList.remove("active");
-    drop.addEventListener("click", (e) => e.stopPropagation());
-  });
+.topnav a {
+  float: left;
+  display: block;
+  color: orangered;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-function toggleHamburger() {
-  navMenu.classList.toggle("show");
+.active {
+  background-color: transparent;
+  color: white;
 }
 
-dropdownBtn.forEach((btn) => {
-  btn.addEventListener("click", function (e) {
-    const dropdownIndex = e.currentTarget.dataset.dropdown;
-    const dropdownElement = document.getElementById(dropdownIndex);
+.topnav .icon {
+  display: none;
+  
+}
 
-    dropdownElement.classList.toggle("active");
-    dropdown.forEach((drop) => {
-      if (drop.id !== btn.dataset["dropdown"]) {
-        drop.classList.remove("active");
-      }
-    });
-    e.stopPropagation();
-    btn.setAttribute(
-      "aria-expanded",
-      btn.getAttribute("aria-expanded") === "false" ? "true" : "false"
-    );
-  });
-});
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
 
-// close dropdown menu when the dropdown links are clicked
-links.forEach((link) =>
-  link.addEventListener("click", () => {
-    closeDropdownMenu();
-    setAriaExpandedFalse();
-    toggleHamburger();
-  })
-);
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: orangered;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
 
-// close dropdown menu when you click on the document body
-document.documentElement.addEventListener("click", () => {
-  closeDropdownMenu();
-  setAriaExpandedFalse();
-});
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+}
 
-// close dropdown when the escape key is pressed
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") {
-    closeDropdownMenu();
-    setAriaExpandedFalse();
+.dropdown-content a {
+  float: none;
+  color: orangered;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: transparent;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
   }
-});
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
 
-// toggle hamburger menu
-hamburgerBtn.addEventListener("click", toggleHamburger);
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
 
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">ARYAN AUTOMATION</a>
+  <a href="#news">HOME</a>
+  <a href="#news">ABOUT</a>
+ 
+  <div class="dropdown">
+    <button class="dropbtn">PRODUCTS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Auto Slide/Swing Doors</a>
+      <a href="#">Auto Slide/Swing Gate</a>
+      <a href="#">High Speed Roll Up Doors</a>
+      <a href="#">Industrial Sectional Doors</a>
+      <a href="#">Industrial Insulated Doors</a>
+      <a href="#">Hospital Hermetic Doors</a>
+      <a href="#">Dock Leveller/Shelter</a>
+      <a href="#">Boom BArriers</a>
+      <a href="#">Access Control System</a>
+    </div>
+  </div> 
+  <a href="#contact">ACCESSSORIES</a>
+  <a href="#contact">CATALOGUE</a>
+  <a href="#contact">MEDIA</a>
+  <a href="#contact">CLIENTS</a>
+  <a href="#contact">ENQUIRY</a>
+  <a href="#contact">CONTACT</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 </script>
+
+</body>
+
+
+</html>
+
+
+<style>
+  *{margin: 0%;
+  padding: 0%;}
+
+  .slideshowContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .imageSlides {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: -1;
+  }
+  
+  /* add 'visible' class via Javascript */
+  .visible {
+    opacity: 1;
+  }
+  
+  .slideshowArrow {
+    font-size: 7em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .slideshowArrow:hover {
+    opacity: 0.75;
+  }
+  
+  #leftArrow {
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #rightArrow {
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .slideshowCircles {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .circle {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    transition: 1s ease-in-out;
+  }
+  
+  .dot {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+  }
+</style>
+<div class="slideshowContainer">
+  
+  <!-- Replace the image 'src' with the images in your project.
+  Javascript is set up so that you can add as many images as you like, but make sure that you match the number of 'circle' span elements (below) to the number of images -->
+    <img class="imageSlides" src="https://4.imimg.com/data4/HO/GY/MY-2285808/auto-slinding-door-500x500.jpg" alt="beach side city view">
+    <img class="imageSlides" src="https://4.imimg.com/data4/TE/BS/MY-2285808/111-500x500.jpg" alt="leaf on the ground">
+    <img class="imageSlides" src="https://4.imimg.com/data4/NH/PA/MY-2285808/111-500x500.jpg" alt="lake surrounded by mountains">
+    
+  <!-- I would recommend to replace these 'span' elements with 'img' files
+  for each the left and right arrow that fits your project, and size accordingly.
+  I've shown 'span' elements because I didn't want to upload files. -->
+    <span id ="leftArrow" class="slideshowArrow">&#8249;</span>
+    <span id ="rightArrow" class="slideshowArrow">&#8250;</span>
+    
+    <div class="slideshowCircles">
+  <!-- Filled 'dot' class is set to first image in slideshow, and then via Javascript the filled 'dot' class follows the current image.
+  Make sure you match the number of these 'circle' span elements to the number of images in your slideshow. -->
+      <span class="circle dot"></span>
+      <span class="circle"></span>
+      <span class="circle"></span>
+    </div>
+    
+  </div>
+  <script>
+    // IMAGE SLIDES & CIRCLES ARRAYS, & COUNTER
+var imageSlides = document.getElementsByClassName('imageSlides');
+var circles = document.getElementsByClassName('circle');
+var leftArrow = document.getElementById('leftArrow');
+var rightArrow = document.getElementById('rightArrow');
+var counter = 0;
+
+// HIDE ALL IMAGES FUNCTION
+function hideImages() {
+  for (var i = 0; i < imageSlides.length; i++) {
+    imageSlides[i].classList.remove('visible');
+  }
+}
+
+// REMOVE ALL DOTS FUNCTION
+function removeDots() {
+  for (var i = 0; i < imageSlides.length; i++) {
+    circles[i].classList.remove('dot');
+  }
+}
+
+// SINGLE IMAGE LOOP/CIRCLES FUNCTION
+function imageLoop() {
+  var currentImage = imageSlides[counter];
+  var currentDot = circles[counter];
+  currentImage.classList.add('visible');
+  removeDots();
+  currentDot.classList.add('dot');
+  counter++;
+}
+
+// LEFT & RIGHT ARROW FUNCTION & CLICK EVENT LISTENERS
+function arrowClick(e) {
+  var target = e.target;
+  if (target == leftArrow) {
+    clearInterval(imageSlideshowInterval);
+    hideImages();
+    removeDots();
+    if (counter == 1) {
+      counter = (imageSlides.length - 1);
+      imageLoop();
+      imageSlideshowInterval = setInterval(slideshow, 10000);
+    } else {
+      counter--;
+      counter--;
+      imageLoop();
+      imageSlideshowInterval = setInterval(slideshow, 10000);
+    }
+  } 
+  else if (target == rightArrow) {
+    clearInterval(imageSlideshowInterval);
+    hideImages();
+    removeDots();
+    if (counter == imageSlides.length) {
+      counter = 0;
+      imageLoop();
+      imageSlideshowInterval = setInterval(slideshow, 10000);
+    } else {
+      imageLoop();
+      imageSlideshowInterval = setInterval(slideshow, 10000);
+    }
+  }
+}
+
+leftArrow.addEventListener('click', arrowClick);
+rightArrow.addEventListener('click', arrowClick);
+
+
+// IMAGE SLIDE FUNCTION
+function slideshow() {
+  if (counter < imageSlides.length) {
+    imageLoop();
+  } else {
+    counter = 0;
+    hideImages();
+    imageLoop();
+  }
+}
+
+// SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
+setTimeout(slideshow, 1000);
+var imageSlideshowInterval = setInterval(slideshow, 10000);
+  </script>
