@@ -1,5 +1,5 @@
 <link rel="icon" type="image/x-icon" href="Aryan Automation Logo.png">
-<title>Aryan Automation</title>
+<title>About Page</title>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +7,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 
+*{
+margin: 0%;
+padding: 0%;
 
+}
 .topnav {
   overflow: hidden;
   background-color: #0cf2f2;
@@ -152,7 +156,7 @@ font-family: sans-serif;
       <a href="#">Access Control System</a>
     </div>
   </div> 
-  <a href="#contact">ACCESSSORIES</a>
+  <a href="Accessories.html">ACCESSSORIES</a>
   <a href="#contact">CATALOGUE</a>
   <a href="#contact">MEDIA</a>
   <a href="client.html">CLIENTS</a>
@@ -177,1188 +181,563 @@ function myFunction() {
 
 
 </html>
+
+<center><h1 style="margin-top: 20px;font-family: sans-serif;" >About </h1></center>
+<br>
+<center><p1 style="margin-top: 50px; font-size: xx-large; font-family: sans-serif; " >We've more than 1200 satisfied customers all over India..
+</p1></center>
+<br>
+<center><p2 style="font-family: sans-serif;" >We operate from one of the most modern design and manufacturing facilities in the business and employ a team of highly skilled engineers. <br>We are Geographically well placed to meet the needs of our wide Customer Base around the Country, which spans to Individual Homes, Manufacturing and Service companies, Leisure Operators and Local Authorities.</p2></center>
+
+<div style="margin-top: 50px;" class="container">
+
+
+	<div class="gallery">
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="Auto Frame Sliding Doors.png" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="Auto Hanger door.png" alt="sunset behind San Francisco city skyline">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="Auto Slide Gate.png" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="Auto Swing door.png" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="Auto Retractable Gate.png" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="Low Head Room Lift Garage Door.png" alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
+		</div>
+
+	</div>
+
+</div>
+
 <style>
- *{margin: 0%;
-    padding: 0%;
-}
+  /*
 
-        a:hover,
-        a:focus,
-        a:active {
-            text-decoration: none;
-            outline: none;
-        }
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
         
-        a,
-        a:active,
-        a:focus {
-            color: #6f6f6f;
-            text-decoration: none;
-            transition-timing-function: ease-in-out;
-            -ms-transition-timing-function: ease-in-out;
-            -moz-transition-timing-function: ease-in-out;
-            -webkit-transition-timing-function: ease-in-out;
-            -o-transition-timing-function: ease-in-out;
-            transition-duration: .2s;
-            -ms-transition-duration: .2s;
-            -moz-transition-duration: .2s;
-            -webkit-transition-duration: .2s;
-            -o-transition-duration: .2s;
-        }
-        
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        img {
-    max-width: 100%;
-    height: auto;
-}
-        section {
-            padding: 60px 0;
-           /* min-height: 100vh;*/
-        }
+The 'supports' rule will only run if your browser supports CSS grid.
 
-.sec-title{
-  position:relative;
-  z-index: 1;
-  margin-bottom:60px;
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
 }
 
-.sec-title .title{
-  position: relative;
-  display: block;
-  font-size: 18px;
-  line-height: 24px;
-  color: #00aeef;
-  font-weight: 500;
-  margin-bottom: 15px;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
-.sec-title h2{
-  position: relative;
-  display: block;
-  font-size:40px;
-  line-height: 1.28em;
-  color: #222222;
-  font-weight: 600;
-  padding-bottom:18px;
+body {
+	min-height: 100vh;
+	background-color: #fafafa;
 }
 
-.sec-title h2:before{
-  position:absolute;
-  content:'';
-  left:0px;
-  bottom:0px;
-  width:50px;
-  height:3px;
-  background-color:#d1d2d6;
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
 }
 
-.sec-title .text{
-  position: relative;
-  font-size: 16px;
-  line-height: 26px;
-  color: #848484;
-  font-weight: 400;
-  margin-top: 35px;
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
 }
 
-.sec-title.light h2{
-  color: #ffffff;
+.heading span {
+	display: block;
 }
 
-.sec-title.text-center h2:before{
-  left:50%;
-  margin-left: -25px;
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
 }
 
-.list-style-one{
-  position:relative;
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
 }
 
-.list-style-one li{
-  position:relative;
-  font-size:16px;
-  line-height:26px;
-  color: #222222;
-  font-weight:400;
-  padding-left:35px;
-  margin-bottom: 12px;
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
 }
 
-.list-style-one li:before {
-    content: "\f058";
-    position: absolute;
-    left: 0;
-    top: 0px;
-    display: block;
-    font-size: 18px;
-    padding: 0px;
-    color: #ff2222;
-    font-weight: 600;
-    -moz-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1.6;
-    font-family: "Font Awesome 5 Free";
+.gallery-image:hover {
+	transform: scale(1.15);
 }
 
-.list-style-one li a:hover{
-  color: #44bce2;
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
 }
 
-
-
-.about-section .sec-title{
-  margin-bottom: 45px;
-}
-
-.about-section .content-column{
-  position: relative;
-  margin-bottom: 50px;
-}
-
-.about-section .content-column .inner-column{
-  position: relative;
-  padding-left: 30px;
-}
-
-.about-section .text{
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 26px;
-  color: #848484;
-  font-weight: 400;
-}
-
-.about-section .list-style-one{
-  margin-bottom: 45px;
-}
-
-.about-section .btn-box{
-  position: relative;
-}
-
-.about-section .btn-box a{
-  padding: 15px 50px;
-}
-
-.about-section .image-column{
-  position: relative;
-}
-
-.about-section .image-column .text-layer{
-    position: absolute;
-    right: -110px;
-    top: 50%;
-    font-size: 325px;
-    line-height: 1em;
-    color: #ffffff;
-    margin-top: -175px;
-    font-weight: 500;
-}
-
-.about-section .image-column .inner-column{
-  position: relative;
-  padding-left: 80px;
-  padding-bottom: 0px;
-}
-.about-section .image-column .inner-column .author-desc{
-    position: absolute;
-    bottom: 16px;
-    z-index: 1;
-    left: 96px;
-    width: calc(100% - 152px);
-    border-radius: 50px;
-}
-.about-section .image-column .inner-column .author-desc h2{
-    font-size: 21px;
-    letter-spacing: 1px;
-    text-align: center;
-    color: #fff;
-  margin: 0;
-}
-.about-section .image-column .inner-column .author-desc span{
-    font-size: 16px;
-    letter-spacing: 6px;
-    text-align: center;
-    color: #fff;
-  display: block;
-  font-weight: 400;
-}
-.about-section .image-column .inner-column:before{
-    content: '';
-    position: absolute;
-    width: calc(50% + 80px);
-    height: calc(100% + 160px);
-    top: -80px;
-    left: -3px;
-    background: transparent;
-    z-index: 0;
- 
-}
-
-.about-section .image-column .image-1{
-  position: relative;
-}
-.about-section .image-column .image-2{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.about-section .image-column .image-2 img,
-.about-section .image-column .image-1 img{
-  box-shadow: 0 30px 50px rgba(8,13,62,.15);
-      border-radius: 46px;
-}
-
-.about-section .image-column .video-link{
-  position: absolute;
-  left: 70px;
-  top: 170px;
-}
-
-.about-section .image-column .video-link .link{
-  position: relative;
-  display: block;
-  font-size: 22px;
-  color: #191e34;
-  font-weight: 400;
-  text-align: center;
-  height: 100px;
-  width: 100px;
-  line-height: 100px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 30px 50px rgba(8,13,62,.15);
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
-.about-section .image-column .video-link .link:hover{
-  background-color: #191e34;
-  color: green;}
 </style>
-<section class="about-section">
-    <div class="container">
-        <div class="row">                
-            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
-                <div class="inner-column">
-                
-                      <center>  <span style="color: red; font-size: xx-large; font-weight: 900;" class="title">About Us</span></center>
-                      <center>  <h2 style="margin-top: 50px;" >We've more than 1200 satisfied customers all over India..</h2></center>
-                    </div>
-                   <center> <div style="margin-top: 30px;font-size: large; " class="text">
-                        We operate from one of the most modern design and manufacturing facilities in the business and employ a team of highly skilled engineers. <br>We are Geographically well placed to meet the needs of our wide Customer Base around the Country, which spans to Individual Homes, <br>Manufacturing and Service companies, Leisure Operators and Local Authorities.</div></center>
-                
-                </div>
-            </div>
-
-            <!-- Image Column -->
-            <div style="margin-top: 150px;" class="image-column col-lg-6 col-md-12 col-sm-12">
-                <div class="inner-column wow fadeInLeft">
-                  <div class="author-desc">
-         
-                  </div>
-                <center> <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img title="Rahul Kumar Yadav" src="Aryan Automation.png.png" alt=""></a></figure></center>
-                 
-                </div>
-            </div>
-          
 
 
+<div class="pg-footer">
+  <footer class="footer">
+    <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+      <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
+    </svg>
+    <div class="footer-content">
+      <div class="footer-content-column">
+        <div class="footer-logo">
+          <a class="footer-logo-link" href="#">
+            <span class="hidden-link-text">LOGO</span>
+            <img src="Aryan Automation.png.png" width="50px" height="50px"> 
+          </a>
+        </div>
+        <div class="footer-menu">
+          <h2 class="footer-menu-name"> Get Started</h2>
+          <ul id="menu-get-started" class="footer-menu-list">
+            <li class="menu-item menu-item-type-post_type menu-item-object-product">
+              <a href="#">Start</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-product">
+              <a href="#">Documentation</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-product">
+              <a href="#">Installation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content-column">
+        <div class="footer-menu">
+          <h2 class="footer-menu-name"> Company</h2>
+          <ul id="menu-company" class="footer-menu-list">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <a href="#">Contact</a>
+            </li>
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+              <a href="#">News</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <a href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h2 class="footer-menu-name"> Legal</h2>
+          <ul id="menu-legal" class="footer-menu-list">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+              <a href="#">Privacy Notice</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content-column">
+        <div class="footer-menu">
+          <h2 class="footer-menu-name"> Quick Links</h2>
+          <ul id="menu-quick-links" class="footer-menu-list">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+              <a target="_blank" rel="noopener noreferrer" href="#">Support Center</a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom">
+              <a target="_blank" rel="noopener noreferrer" href="#">Service Status</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <a href="#">Security</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <a href="#">Blog</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
+              <a href="#">Customers</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <a href="#">Reviews</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content-column">
+        <div class="footer-call-to-action">
+          <h2 class="footer-call-to-action-title"> Let's Chat</h2>
+          <p class="footer-call-to-action-description"> Have a support question?</p>
+          <a class="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
+        </div>
+        <div class="footer-call-to-action">
+          <h2 class="footer-call-to-action-title"> You Call Us</h2>
+          <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> +91 9822056500 </a></p>
+        </div>
+      </div>
+  
+      
+      
+       
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="footer-copyright-wrapper">
+        <p class="footer-copyright-text">
+          <a class="footer-copyright-link" href="#" target="_self">  © Copyright Aryan Automation. All rights reserved. </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
 
-            <style>
-                body {
-   
-   margin: 0;
-   text-align: center;
- 
- }
- 
- 
- /* DESKTOP */
- 
- @media all and (max-width: 999999999px) and (min-width: 1340px) {
- 
- /* Footer Parent Div Styling */
- 
- #footer {
-   
-   width:100%;
-   background-color:#fff;
-   margin: 0 auto;
- 
- }
- 
-   
- /* H3 Styling */
- 
- h3.left {
- 
-   color: #000;
-   font-size: 16px;
-   font-family: Mallory, Sans-Serif;
-   font-weight: bold;
-   margin: 0 0 10px 0; 
-   text-align: left;
- 
- }
- 
- h3.center {
- 
-   color: #000;
-   font-size: 16px;
-   font-family: Mallory, Sans-Serif;
-   font-weight: bold;
-   margin: 0 0 10px 0; 
-   text-align: center;
- 
- }
-   
- 
- /* List Styling */
- 
-   ul {
-     margin: 0;
-     list-style-type: none;
- }
- 
-     li {
-     margin: 0;
-     color: #666666;
-     font-size: 13px;
-     font-weight: 300;
-     line-height: 22px;
-     list-style-type: none;
-     text-align: left;
- }
-  
- 
- /* Utility Links Div Styling */
- 
- #utility-links {
- 
-   width: 50%;
-   height: 150px;
-   background-color:#fff;
-   margin: 40px auto 0 auto;
-    
- }
- 
- .rectangle {
-     width: 1px;
-     height: 100px;
-     background: #D8D8D8;
-   margin: 0 30px 0 0;
-   float: left;
-   display: inline-block;
- 
- }
- 
-   
- /* Help Styling */
- 
- .help {
-  
-   width: 30%;
-   height: 100px;
-   float: left;
-   margin: 0;
-   display: inline-block;
-  
- }
- 
-   
- /* Help Img Icons*/
- 
- .help-img-icon {
- 
-   float: left;
-   margin: 0 5px 0 0;
- 
- }
- 
- 
- /* About Styling */
- 
- .about {
- 
-   width: 30%;
-   height: 100px;
-   float: left;
-   margin: 0;
-   display: inline-block;
- 
- }
- 
- 
- /* Card Services Styling */
- 
- .card {
- 
-   width: 30%;
-   height: 100px;
-   float: left;
-   margin: 0;
-   display: inline-block;
- 
- }
- 
- 
- /* Newsletter-Social Container */ 
- 
- #newsletter-social {
-  
-   width: 40%;
-   margin: 0 auto;
-   text-align: center;
- 
- }
-     
-   
- /* Newsletter Styling */ 
- 
- #newsletter {
-  
-   width: 65%;
-   margin: 30px 0 0 0;
-   text-align: center;
-   float: left;
-   display: inline-block;
- 
- }
- 
- p.deals {
-     
-   font-size: 13px;
-   font-family: Helvetica, Arial, Sans-Serif;
-   font-weight: 500; 
-   line-height: 0;
-   text-align: center;
-   
- }
- 
- input[type=text] {
- 
-     width: 60%;
-     padding: 15px 20px;
-     margin: 8px 0;
-     box-sizing: border-box;
-     border: 1px #D9D6D6;
-     background-color: #F2F2F2;
-     border-radius: 4px;
-     font-size: 13px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- input[type=button], input[type=submit], input[type=reset] {
- 
-     background-color: #0677FF;
-     border: 2px;
-     border-radius: 4px;
-     color: white;
-     padding: 15px 35px;
-     text-decoration: none;
-     margin: 4px 2px;
-     cursor: pointer;
-     font-size: 13px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 900;
-   
- }
- 
- 
- /* Social Media Styling */ 
- 
- #social {
- 
-   width: 35%;
-   margin: 80px 0 0 0;
-   float: right;
-   display: inline-block;
- 
- }
- 
- 
- /* Copyright Styling */ 
- 
- .rectangle-horiz {
-     width: 100%;
-     height: 2px;
-     background: #D8D8D8;
-   margin: 170px 0 0 0;
- 
- }
- 
- 
- #copyright {
-   
-     width: 100%;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 30px;
- 
- }
- 
- 
-  .copy {
- 
-     color: #a7a7a7;
-     font-size: 10px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
-     line-height: 20px;
-     text-align: center;
-     margin-left: 20px;
-     display: inline-block;
- overflow: hidden;
- 
- }
- 
- 
- /* Link Styling */
- 
- a:link {
-     color: #000;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- a:visited {
-     color: #000;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- a:hover {
-     color: #0677FF;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- a:active {
-     color: #0677FF;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
-   }
- 
- }
- 
- 
- 
- /* =TABLET */
- 
- @media all and (max-width: 1339px) and (min-width: 600px) {
- 
- /* Footer Parent Div Styling */
- 
- #footer {
-   
-   width:100%;
-   background-color:#fff;
-   margin: 0 auto;
- 
- }
- 
- /* H3 Styling */
- 
- h3.left {
- 
-   color: #000;
-   font-size: 16px;
-   font-family: Mallory, Sans-Serif;
-   font-weight: bold;
-   margin: 0 0 10px 0; 
-   text-align: left;
- 
- }
- 
- h3.center {
- 
-   color: #000;
-   font-size: 16px;
-   font-family: Mallory, Sans-Serif;
-   font-weight: bold;
-   margin: 0 0 10px 0; 
-   text-align: center;
- 
- }
-   
- 
- /* List Styling */
- 
-   ul {
-     margin: 0;
-     list-style-type: none;
- }
- 
-     li {
-     margin: 0;
-     color: #666666;
-     font-size: 13px;
-     font-weight: 300;
-     line-height: 22px;
-     list-style-type: none;
-   text-align: left;
- }
-  
- 
- 
- /* Utility Links Div Styling */
- 
- #utility-links {
- 
-   width: 90%;
-   height: 150px;
-   background-color:#fff;
-   margin: 40px auto 0 auto;
- 
-  
-     
- }
- 
- .rectangle {
-     width: 1px;
-     height: 100px;
-     background: #D8D8D8;
-   margin: 0 30px 0 30px;
-   float: left;
- display: inline-block;
- 
- }
- 
- /* Help Styling */
- 
- .help {
-  
-   width: 25%;
-   height: 100px;
-   float: left;
-   margin: 0;
- display: inline-block;
-  
- }
- 
- /* Help Img Icons*/
- 
- .help-img-icon {
- 
-   float: left;
-   margin: 0 5px 0 0;
- 
- }
- 
- 
- /* About Styling */
- 
- .about {
- 
-   width: 25%;
-   height: 100px;
-   float: left;
-   margin: 0;
- display: inline-block;
- 
- }
- 
- 
- /* Card Services Styling */
- 
- .card {
- 
-   width: 25%;
-   height: 100px;
-   float: left;
-   margin: 0;
- display: inline-block;
- 
- }
- 
- 
- /* Newsletter Styling */ 
- 
- #newsletter {
-  
-   width: 50%;
-   margin: 30px 0 0 0;
-   text-align: center;
- float: left;
- display: inline-block;
- 
- }
- 
- p.deals {
-     
-   font-size: 13px;
-   font-family: Helvetica, Arial, Sans-Serif;
-   font-weight: 500; 
-   line-height: 0;
-   text-align: center;
-   
- }
- 
- input[type=text] {
- 
-     width: 40%;
-     padding: 15px 20px;
-     margin: 8px 0;
-     box-sizing: border-box;
-     border: 1px #D9D6D6;
-     background-color: #F2F2F2;
-     border-radius: 4px;
-     font-size: 13px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- input[type=button], input[type=submit], input[type=reset] {
- 
-     background-color: #0677FF;
-     border: 2px;
-     border-radius: 4px;
-     color: white;
-     padding: 15px 35px;
-     text-decoration: none;
-     margin: 4px 2px;
-     cursor: pointer;
-     font-size: 13px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 900;
-   
- }
- 
- 
- /* Social Media Styling */ 
- 
- #social {
- 
-   width: 50%;
-   margin: 80px 0 0 0;
-   float: right;
-   display: inline-block;
- 
- }
- 
- 
- /* Copyright Styling */ 
- 
- .rectangle-horiz {
-     width: 100%;
-     height: 2px;
-     background: #D8D8D8;
-   margin: 0 0 0 0;
- 
- }
- 
- 
- #copyright {
-   
-     width: 100%;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 160px;
- 
- }
- 
- 
-  .copy {
- 
-     color: #a7a7a7;
-     font-size: 10px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
-     line-height: 20px;
-     text-align: center;
-     margin-left: 20px;
- 
- 
- }
- 
- 
- /* Link Styling */
- 
- a:link {
-     color: #000;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- a:visited {
-     color: #000;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- a:hover {
-     color: #0677FF;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- a:active {
-     color: #0677FF;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
-   }
- 
- }
- 
- 
- 
- 
- /* MOBILE */
- 
- @media all and (max-width: 599px) and (min-width: 100px) {
- 
-   
- /* Footer Parent Div Styling */
- 
- #footer {
-   
-   width:100%;
-   background-color:#fff;
-   margin: 0 auto;
- 
- }
- 
- /* H3 Styling */
- 
- h3.left {
- 
-   color: #000;
-   font-size: 16px;
-   font-family: Mallory, Sans-Serif;
-   font-weight: bold;
-   margin: 0 0 10px 0; 
- 
- 
- }
- 
- h3.center {
- 
-   color: #000;
-   font-size: 16px;
-   font-family: Mallory, Sans-Serif;
-   font-weight: bold;
-   margin: 0 0 10px 0; 
-   text-align: center;
- 
- }
-   
- 
- /* List Styling */
- 
-   ul {
-     margin: 0;
-     list-style-type: none;
- }
- 
-     li {
-     margin: 0;
-     color: #666666;
-     font-size: 13px;
-     font-weight: 300;
-     line-height: 22px;
-     list-style-type: none;
-      text-align: center;
- }
-  
- 
- /* Utility Links Div Styling */
- 
- #utility-links {
- 
-   width: 90%;
-   height: 150px;
-   background-color:#fff;
-   margin: 40px auto 0 auto;
- 
-     
- }
- 
- 
- /* Help Styling */
- 
- .help {
-  
-   width: 100%;
-   height: 100px;
-   float: left;
-   margin: 0;
- 
- }
- 
-   
- /* Help Img Icons*/
- 
- .help-img-icon {
- 
-   margin: 0 5px 0 0;
- 
- }
- 
- 
- /* About Styling */
- 
- .about {
- 
-   width: 100%;
-   height: 100px;
-   float: left;
-   margin: 50px 0 0 0;
- 
- }
- 
- 
- /* Card Services Styling */
- 
- .card {
- 
-   width: 100%;
-   height: 100px;
-   float: left;
-   margin: 0;
- 
- }
- 
- 
- /* Newsletter Styling */ 
- 
- #newsletter {
-  
-   width: 100%;
-   margin: 210px 0 0 0;
-   text-align: center;
- 
- }
- 
- p.deals {
-     
-   font-size: 13px;
-   font-family: Helvetica, Arial, Sans-Serif;
-   font-weight: 500; 
-   line-height: 0;
-   text-align: center;
-   
- }
- 
- input[type=text] {
- 
-     width: 40%;
-     padding: 15px 20px;
-     margin: 8px 0;
-     box-sizing: border-box;
-     border: 1px #D9D6D6;
-     background-color: #F2F2F2;
-     border-radius: 4px;
-     font-size: 13px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- input[type=button], input[type=submit], input[type=reset] {
- 
-     background-color: #0677FF;
-     border: 2px;
-     border-radius: 4px;
-     color: white;
-     padding: 15px 35px;
-     text-decoration: none;
-     margin: 4px 2px;
-     cursor: pointer;
-     font-size: 13px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 900;
-   
- }
- 
- 
- /* Social Media Styling */ 
- 
- #social {
- 
-   width: 100%;
-   margin: 30px 0 0 0;
- 
- }
- 
- 
- /* Copyright Styling */ 
- 
- .rectangle-horiz {
- 
-   width: 100%;
-     height: 2px;
-     background: #D8D8D8;
-   margin: 30px 0 0 0;
- 
- }
- 
- 
- #copyright {
-   
-     width: 100%;
-     margin: 0 auto;
-     margin-top: 30px;
- 
- }
- 
- 
-  .copy {
- 
-     color: #a7a7a7;
-     font-size: 8.5px;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
-     line-height: 20px;
-     text-align: center;
-     margin: 0;
-    white-space: nowrap;
- 
- 
- }
- 
- 
- /* Link Styling */
- 
- a:link {
-     color: #000;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- a:visited {
-     color: #000;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- a:hover {
-     color: #0677FF;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
- }
- 
- 
- a:active {
-     color: #0677FF;
-     text-decoration: none;
-     font-family: Helvetica, Arial, Sans-Serif;
-     font-weight: 500;
-   }
- 
- }
- 
- 
-            </style>
-            <div style="margin-top: 150px;" id="footer">
-                <div id="utility-links">
-              
-                 <div class="help">
-                 <ul>
-                   <h3 class="left">Need Help?</h3>
-                   <li><a href="contact.html">Rich Contact</a></li>
-                   <li><img class="help-img-icon" width="15" height="15" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469462243/phone_zfj4ey.svg"</img><a href="#">+91 9822056500</a></li>
-                 </ul>
-                   <li><img class="help-img-icon" width="15" height="15" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469462243/phone_zfj4ey.svg"</img><a href="#">+91 9423028348</a></li>
-                 </ul>
-                   </div>
-               
-                
-                  <div class="rectangle"></div>
-              
-                 <div class="about">
-                      <ul>
-                        <h3 class="left">About Company</h3>
-                        <li><a href="About.html">Company Information</a></li>
-                        <li><a href="client.html">Clients</a></li>
-                     </ul>
-                     </div>
-                
-                  <div class="rectangle"></div>
-                
-                <div class="card">
-                      <ul>
-                        <h3 class="left">products</h3>
-                        <li><a href="#">Aedit Cacademy Crrd</a></li>
-                        <li><a href="#">Academy Gift Card</a></li>
-                     </ul>
-                 </div>
-              </div>  
-                
-              <div id="newsletter-social">  
-                  <div id="newsletter">
-                  <h3 class="center">Get More Deals!</h3>
-                  <p class="deals">With Aryan Automation</p>
-                  <form style="margin-top: 50px;" >
-                  <input type="text" placeholder="Enter email address">
-                  <input type="submit" value="Sign Up">
-                  </form>
-              </div>  
-                  
-                  
-               <div id="social">
-                  <a href="https://facebook.com/academy" target="_blank">
-                  <img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/facebook_khedl5.svg"></a></img>
-              
-                  <a href="https://twitter.com/academy" target="_blank">
-                  <img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/twitter_fu5ejk.svg"></a></img>
-              
-                  <a href="hhttps://pinterest.com/academy/" target="_blank">
-                  <img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/pinterest_kahh1i.svg"></a></img>
-              
-                  <a href="https://www.youtube.com/user/academydotcom" target="_blank">
-                  <img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/youtube_xrntt3.svg"></a></img>
-              
-                  <a href="http://instagram.com/academy" target="_blank">
-                  <img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/instagram_ugek0w.svg"></a></img>
-              
-                </div>  
-              </div>  
-                   
-              <div class="rectangle-horiz"></div>
-              
-              <div id="copyright">
-              <ul>
-                <li class="copy">© 2023 Aryan Automation All Rights Reserved.</li>
-              
-                <li class="copy">Privacy Policy | Terms + Conditions | Sitemap</li>
-              
-                <li class="copy">Corporate Office:
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.pg-footer {
+  font-family: 'Roboto', sans-serif;
+}
 
-                  Plot No.: A-42, Aurangabad Co-op. Industrial Estate, MIDC Railway Station Road, Aurangabad (M.S.)-431005 INDIA. Tel.: +91-240-2970074 E-mail: aryanautomation@gmail.com, sales@aryanautomation.com Website: www.aryanautomation.com</li>
-                
-              </div>
-                
-                 </div>
-              
-              </footer>
+
+.footer {
+    background-color: #0cf2f2;
+    color: black;
+}
+.footer-wave-svg {
+    background-color: transparent;
+    display: block;
+    height: 30px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+.footer-wave-path {
+    fill: red;
+}
+
+.footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 450px;
+    position: relative;
+}
+
+.footer-content-column {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    color: black;
+}
+
+.footer-content-column ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-logo-link {
+    display: inline-block;
+}
+.footer-menu {
+    margin-top: 30px;
+}
+
+.footer-menu-name {
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.footer-menu-list {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-left: 0;
+}
+.footer-menu-list li {
+    margin-top: 5px;
+}
+
+.footer-call-to-action-description {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-call-to-action-button:hover {
+    background-color: #fffff2;
+    color: red;
+}
+.button:last-of-type {
+    margin-right: 0;
+}
+.footer-call-to-action-button {
+    background-color: red;
+    border-radius: 21px;
+    color: black;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    padding: 12px 30px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .2s;
+    cursor: pointer;
+    position: relative;
+}
+.footer-call-to-action {
+    margin-top: 30px;
+}
+.footer-call-to-action-title {
+    color: black;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.footer-call-to-action-link-wrapper {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+.footer-call-to-action-link-wrapper a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+.footer-social-links {
+    bottom: 0;
+    height: 54px;
+    position: absolute;
+    right: 0;
+    width: 236px;
+}
+
+.footer-social-amoeba-svg {
+    height: 54px;
+    left: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 236px;
+}
+
+.footer-social-amoeba-path {
+    fill: red;
+}
+
+.footer-social-link.linkedin {
+    height: 26px;
+    left: 3px;
+    top: 11px;
+    width: 26px;
+}
+
+.footer-social-link {
+    display: block;
+    padding: 10px;
+    position: absolute;
+}
+
+.hidden-link-text {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    top: 50%;
+}
+
+.footer-social-icon-svg {
+    display: block;
+}
+
+.footer-social-icon-path {
+    fill: #fffff2;
+    transition: fill .2s;
+}
+
+.footer-social-link.twitter {
+    height: 28px;
+    left: 62px;
+    top: 3px;
+    width: 28px;
+}
+
+.footer-social-link.youtube {
+    height: 24px;
+    left: 123px;
+    top: 12px;
+    width: 24px;
+}
+
+.footer-social-link.github {
+    height: 34px;
+    left: 172px;
+    top: 7px;
+    width: 34px;
+}
+
+.footer-copyright {
+    background-color:#0cf2f2 ;
+    color: #fff;
+    padding: 15px 30px;
+  text-align: center;
+}
+
+.footer-copyright-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.footer-copyright-text {
+  color: black;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footer-copyright-link {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* Media Query For different screens */
+@media (min-width:320px) and (max-width:479px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:480px) and (max-width:599px)  { /* smartphones, Android phones, landscape iPhone */
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:600px) and (max-width: 800px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+}
+
+
+
+
+@media (min-width: 760px) {
+  .footer-content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1230px;
+      padding: 40px 15px 450px;
+      position: relative;
+  }
+
+  .footer-wave-svg {
+      height: 50px;
+  }
+
+  .footer-content-column {
+      width: 24.99%;
+  }
+}
+@media (min-width: 568px) {
+  /* .footer-content-column {
+      width: 49.99%;
+  } */
+}
+
+</style>
